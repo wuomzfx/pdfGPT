@@ -1,0 +1,21 @@
+{
+  "name": "pdf-gpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "load": "node ./scripts/load",
+    "ask": "node ./scripts/ask",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stdlib/blas": "^0.0.12",
+    "gpt-3-encoder": "^1.1.4",
+    "nodejieba": "^2.6.0",
+    "openai": "^3.1.0",
+    "pdfjs-dist": "^3.3.122"
+  },
+  "repository": "https://github.com/wuomzfx/pdfGPT.git"
+}
